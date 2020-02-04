@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+header {
+  margin-bottom: 15px;
+  align-items: center;
+}
+header > a {
+  height: 64px;
+}
+.avatar {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  transition: 0.7s;
+  cursor: pointer;
+  flex: 1;
+}
+.avatar:hover {
+  transform: rotate(360deg);
+}
+.title {
+  flex: 1;
+  display: inline-block;
+  position: relative;
+  color: #ecf0f1;
+  text-align: center;
+  font-size: 3rem;
+}
+.show {
+  text-align: center;
+  color: #ecf0f1;
+  font-size: 3rem;
+  margin-top: -60px;
+}
+.keyBoard {
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.flex {
+  display: flex;
+}
+.row-1 {
+  margin-bottom: 25px;
+}
+.row-1-1 {
+  margin-right: 50px;
+}
+.row-1-2,
+.row-1-3,
+.row-1-4,
+.row-1-5,
+.row-2-1,
+.row-2-2,
+.row-3-1,
+.row-3-2,
+.row-6-1,
+.row-6-2 {
+  margin-right: 25px;
+}
+.row-4-1 {
+  margin-right: 217px;
+}
+.row-5,
+.row-6 {
+  position: relative;
+  top: -56px;
+}
+.row-5-1 {
+  margin-right: 81px;
+}
+.row-5-2 {
+  margin-right: 80px;
+}
+.key {
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #3498db;
+  text-align: center;
+  line-height: 50px;
+  color: #ecf0f1;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  margin: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.key:hover {
+  background-color: #3498db;
+}
+.active {
+  background-color: #3498db;
+}

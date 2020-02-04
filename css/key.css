@@ -1,0 +1,72 @@
+#Backquote {
+  width: 46px;
+}
+#Backspace {
+  width: 100px;
+}
+#Tab {
+  width: 72px;
+}
+#Backslash {
+  width: 74px;
+}
+
+#CapsLock {
+  width: 90px;
+}
+#Enter {
+  width: 112px;
+}
+#NumpadAdd,
+#NumpadEnter {
+  height: 106px;
+  line-height: 106px;
+  position: relative;
+  top: -56px;
+  float: left;
+}
+#ShiftLeft {
+  width: 112px;
+}
+#ShiftRight {
+  width: 146px;
+}
+#ControlLeft,
+#MetaLeft,
+#AltLeft,
+#AltRight,
+#Fn,
+#ContextMenu,
+#ControlRight {
+  width: 64px;
+}
+
+#Space {
+  width: 334px;
+}
+#Numpad0 {
+  width: 106px;
+}
+#NumLock {
+  line-height: 16px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-1-2 > div,
+.row-1-3 > div,
+.row-1-4 > div,
+.row-1-5 > div {
+  padding-top: 5px;
+  line-height: 20px;
+}
+#F3 .icon-vol {
+  font-size: 13px;
+}
+#F4 .icon-vol- {
+  font-size: 14px;
+}
+#F5 .icon-zhongxinbofang {
+  font-size: 10px;
+}
